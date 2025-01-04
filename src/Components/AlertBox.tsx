@@ -11,13 +11,13 @@ const AlertBox: React.FC = () => {
       "توفر خاصية الترجمة الفورية إمكانية دعم لغات جديدة في متجرك بضغطة زر.",
   };
   return (
-    <div className="alert-box p-4 mt-2 rounded-lg text-white flex flex-col items-center lg:flex-row gap-3">
+    <div className="alert-box p-4 mt-2 rounded-lg text-white flex flex-col items-center lg:flex-row gap-3 lg: justify-between">
       <img
         className="w-16"
         src="/images/google-translate.png"
         alt="google translate image"
       />
-      <div className="text-center lg:text-start">
+      <div className="text-center lg:text-start lg:flex-grow">
         <h2 className="">
           {language === "en" ? content.titleEn : content.titleAr}
         </h2>
