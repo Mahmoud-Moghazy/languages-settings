@@ -8,6 +8,7 @@ i18next
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
+    lng: "ar",
     fallbackLng: "ar",
     debug: false,
     detection: {

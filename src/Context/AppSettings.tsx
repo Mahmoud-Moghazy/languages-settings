@@ -50,7 +50,7 @@ export const AppSettingsProvider: React.FC<AppSettingsProviderProps> = ({
   const [language, setLang] = useState(Cookies.get("i18next") || "ar");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isUserProfileOpen, setIsUserProfileOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); 
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const handleResize = () => {
     setIsMobile(window.innerWidth <= 768);
@@ -80,6 +80,13 @@ export const AppSettingsProvider: React.FC<AppSettingsProviderProps> = ({
       console.error("Error fetching data:", error);
     }
   };
+
+  useEffect(() => {
+    if (!Cookies.get("i18next")) {
+      Cookies.set("i18next", "ar");
+      i18next.changeLanguage("ar");
+    }
+  }, []);
 
   useEffect(() => {
     window.document.dir = i18next.dir(language);
