@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom scrollbar for .scrollable-container */
+.scrollable-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: #074c59;
+  border-radius: 8px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background: #56a895;
+  border-radius: 8px;
+}
+
+.scrollable-container::-webkit-scrollbar-button {
+  display: none;
+}
+
+.alert-box {
+  background: url("/images/lang-box-bg.png"), #074c59;
+  background-size: cover; /* Ensures the image covers the element */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center; /* Centers the image */
+}

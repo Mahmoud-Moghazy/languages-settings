@@ -1,0 +1,42 @@
+{
+  "about": [
+    { "label": "الرئيسية", "icon": "fas fa-home" },
+    { "label": "المنتجات", "icon": "fas fa-boxes" },
+    { "label": "الطلبات", "icon": "fas fa-shopping-cart" },
+    { "label": "العملاء", "icon": "fas fa-users" },
+    { "label": "التقارير", "icon": "fas fa-chart-line" },
+    { "label": "الأسئلة والتقييمات", "icon": "fas fa-comments" },
+    { "label": "الصفحات التعريفية", "icon": "fas fa-file-alt" },
+    { "label": "الأدوات التسويقية", "icon": "fas fa-bullhorn" }
+  ],
+  "salesChannels": [
+    { "label": "محلي", "icon": "fas fa-map-marker-alt" },
+    { "label": "سلة بوينت", "icon": "fas fa-credit-card" }
+  ],
+  "supportingTools": [
+    { "label": "خدمات التاجر", "icon": "fas fa-briefcase" },
+    { "label": "المؤثرين", "icon": "fas fa-star" },
+    { "label": "إعلانات سويبلي", "icon": "fas fa-ad" }
+  ],
+  "settings": [
+    { "label": "باقة المتجر", "icon": "fas fa-box" },
+    { "label": "إعدادات المتجر", "icon": "fas fa-sliders-h" },
+    { "label": "المحفظة والفواتير", "icon": "fas fa-wallet" }
+  ],
+  "storeAppearance": [
+    { "label": "متجر الثيمات", "icon": "fas fa-store" },
+    { "label": "تصميم المتجر جديد", "icon": "fas fa-drafting-compass" },
+    { "label": "صانع التطبيقات", "icon": "fas fa-laptop-code" }
+  ],
+  "appStore": [
+    { "label": "التطبيقات المثبتة", "icon": "fas fa-th-large" },
+    { "label": "زيارة متجر التطبيقات", "icon": "fas fa-external-link-alt" }
+  ],
+  "user": [
+    { "label": "الملف الشخصي", "icon": "fas fa-user" },
+    { "label": "التنبيهات", "icon": "fas fa-bell" },
+    { "label": "تحديثات المنصة", "icon": "fas fa-sync-alt" },
+    { "label": "الاقتراحات", "icon": "fas fa-lightbulb" },
+    { "label": "تسجيل الخروج", "icon": "fas fa-sign-out-alt" }
+  ]
+}
